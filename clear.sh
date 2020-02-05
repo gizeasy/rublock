@@ -17,6 +17,8 @@ sed -i '/ref/d' rublock.dnsmasq
 sed -i '/slot/d; /sport/d; /sprav/d; /stav/d' rublock.dnsmasq
 sed -i '/win/d' rublock.dnsmasq
 sed -i '/youtube.com/d' rublock.dnsmasq
+sed -i '/yandex.net/d' rublock.dnsmasq
+sed -i '/yandex.ru/d' rublock.dnsmasq
 sed -i '/zenit/d' rublock.dnsmasq
 
 ### clean temp files
